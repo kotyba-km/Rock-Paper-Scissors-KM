@@ -59,11 +59,11 @@ function playGame(playerMove) {
 function myChoice(choice) {
     const PM = document.querySelector('.player-move');
     if (choice === 'rock') {
-        PM.innerHTML = '<span><i style="font-size:70px"; class="fa-solid fa-hand-back-fist"></i></span>';
+        PM.innerHTML = '<span><i class="fa-solid fa-hand-back-fist"></i></span>';
     }else if (choice === 'paper') {
-        PM.innerHTML = '<span><i style="font-size:70px"; class="fa-solid fa-hand"></i></span>' ;
+        PM.innerHTML = '<span><i class="fa-solid fa-hand"></i></span>' ;
     }else if (choice === 'scissors') {
-        PM.innerHTML = '<span style="transform: rotate(90deg);font-size:70px;"><i style="transform: scaleY(-1)" class="fa-solid fa-hand-scissors"></i></span>';
+        PM.innerHTML = '<span style="transform: rotate(90deg);"><i style="transform: scaleY(-1)" class="fa-solid fa-hand-scissors"></i></span>';
     }
 }
 function pickComputerNumber() {
