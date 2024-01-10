@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK ! PAPER ! SCISSORS !</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="top-details">
+        <p class="player-name">YOU</p>
+        <p class="player-name">COMPUTER</p>
+    </div>
+    <div class="results">
+        <div class="show1 player-move"></div>
+        <div class="show1 result"></div>
+        <div class="show1 computer-move">
+        </div>
+    </div>
+    <div class="choices">
+        <button onclick="playGame('rock'); myChoice('rock'); " class="show2"><i class="icons fa-solid fa-hand-back-fist"></i></button>
+        <button onclick="playGame('paper'); myChoice('paper');" class="show2"><i class="icons fa-solid fa-hand"></i></button>
+        <button onclick="playGame('scissors'); myChoice('scissors');" class="show2"><i class="icons fa-solid fa-hand-scissors"></i></button>
+    </div>
+</body>
+</html>
