@@ -83,3 +83,109 @@ body {
     font-size: 50px;
     transition: all 0.3s;
 }
+.no-show {
+    display: none;
+}
+@media  (max-width:1700px) {
+    .results {
+        margin: 300px 400px 0;
+    }
+}
+@media  (max-width:1600px) {
+    .results {
+        margin: 200px 400px 0;
+    }
+}
+@media  (max-width:1450px) {
+    .results {
+        margin: 100px 300px 0;
+    }
+}
+@media  (max-width:1350px) {
+    .results {
+        margin-top: 50px ;
+        transform: translateX(80px);
+        justify-content: center;
+    }
+}
+@media  (max-width:1250px) {
+    .results {
+        margin-top: 50px ;
+        transform: translateX(110px);
+        justify-content: center;
+    }
+}
+@media  (max-width:1150px) {
+    .results {
+        margin-top: 50px ;
+        transform: translateX(180px);
+        justify-content: center;
+    }
+    .player-move {
+        transform: rotate(0deg);
+        font-size: inherit;
+    }
+}
+@media  (max-width:1100px) {
+    .no-show {
+        display: inline;
+    }
+    .top-details {
+        display: none;
+    }
+    .player-name {
+        color: black;
+        font-family: 'Rubik Glitch', system-ui;
+        font-size: 40px;
+        margin-top: 0px;
+        margin: 0;
+        padding: 0;
+    }
+    .results {
+        justify-content: start;
+        transform: translate(40px);
+        align-items: start;
+        width: 100%;
+        margin: 0 auto;
+        gap: 10px;
+    }
+    .show1 {
+        color: black;
+        background-color: white;
+        border: 5px solid black;
+        border-radius: 0;
+        width: 30vw;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .player-move {
+        transform: rotate(0deg);
+        font-size: inherit;
+    }
+    body {
+        background-image: url(RPS\ game\ wall-01.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        justify-content: space-between;
+        align-items: last first baseline;
+    }
+}
+@media  (max-width:710px) {
+    .results {
+        flex-direction: column;
+        justify-content: center;
+        align-items: normal;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .show1 {
+        width: 80%;
+    }
+    .no-show {
+        font-size: 30px;
+    }
+}
+
